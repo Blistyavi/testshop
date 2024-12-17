@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Доставка и оплата</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #444;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        ul {
+            list-style: disc inside;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+        @media (max-width: 768px) {
+            .product-card {
+                width: calc(50% - 20px);
+            }
+
+            header nav ul {
+                flex-direction: column;
+            }
+
+            header nav ul li {
+                margin: 5px 0;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .product-card {
+                width: 100%;
+            }
+
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Доставка и оплата</h1>
+    </header>
+    <main>
+        <h2>Условия доставки</h2>
+        <p>
+            Мы предлагаем различные способы доставки, чтобы сделать покупку удобной для вас:
+        </p>
+        <ul>
+            <li>Курьерская доставка по городу: от 300 руб. (бесплатно при заказе от 5000 руб.).</li>
+            <li>Доставка почтой по России: сроки зависят от региона (от 200 руб.).</li>
+            <li>Самовывоз из нашего магазина: бесплатно.</li>
+        </ul>
+        <h2>Способы оплаты</h2>
+        <p>
+            Мы принимаем следующие формы оплаты:
+        </p>
+        <ul>
+            <li>Наличный расчет при получении.</li>
+            <li>Банковские карты (Visa, MasterCard, Мир).</li>
+            <li>Онлайн-оплата через защищенный платежный шлюз.</li>
+        </ul>
+        <p>
+            Все платежи проходят через защищенные соединения, гарантируя безопасность ваших данных.
+        </p>
+        <h2>Возврат товаров</h2>
+        <p>
+            Если товар не подошел, вы можете вернуть его в течение 14 дней с момента получения. Товар должен быть в оригинальной упаковке и без следов использования. Для оформления возврата свяжитесь с нашей службой поддержки.
+        </p>
+    </main>
+</body>
+</html>
