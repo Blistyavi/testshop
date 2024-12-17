@@ -118,6 +118,15 @@ section.products {
 .product button:hover {
     background-color: #555;
 }
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
 
 @media (max-width: 768px) {
     nav ul {
